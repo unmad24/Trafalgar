@@ -1,0 +1,545 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Mulish&family=Poppins:wght@400;500;600;700&display=swap");
+
+#navbar {
+  padding: 20px 0px 20px;
+}
+#navbar ul li a {
+  font-family: "Mulish", sans-serif;
+  padding-left: 20px;
+}
+#navbar a {
+  margin-left: 18px;
+}
+.navbar-brand {
+  padding-left: 142px;
+}
+#navbar ul {
+  padding-right: 109px;
+}
+#logo {
+  /* padding-left: 30px; */
+  height: 41px;
+  width: 160px;
+  left: 191px;
+  top: 56px;
+  border-radius: 0px;
+}
+#text img {
+  margin-left: -120px;
+}
+#head #text {
+  padding-right: 200px;
+}
+#head h1 {
+  padding-left: 40px;
+  font-family: "Mulish", sans-serif;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 40px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+#head h2 {
+  font-family: "Mulish", sans-serif;
+  padding-left: 40px;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #7d7987;
+  padding-bottom: 30px;
+}
+#head button {
+  font-family: "Mulish", sans-serif;
+  background: #458ff6;
+  height: 45px;
+  width: 160px;
+  color: white;
+  border-radius: 55px;
+  margin-left: 40px;
+}
+
+#serve {
+  margin-top: 80px;
+  text-align: center;
+}
+#serve h1 {
+  font-size: 30px;
+}
+#serve hr {
+  width: 40px;
+  height: 3px;
+  opacity: 70%;
+}
+#serve h3 {
+  font-size: 15px;
+  line-height: 25px;
+  color: #7d7987;
+}
+#card {
+  background-image: url("images/bg1.png"), url("images/element.png");
+  background-repeat: no-repeat, no-repeat;
+  background-position: -20px -80px, right center;
+  background-size: 60%, 10%;
+}
+
+.card {
+  height: 350px;
+  border: none;
+  border-radius: 18px;
+}
+.card:hover {
+  border: 3px solid;
+  border-color: #458ff6;
+  transition: 0.02s;
+  cursor: pointer;
+}
+
+.card #one {
+  margin-top: 25px;
+  margin-left: 20px;
+  width: 91.98px;
+  height: 90px;
+}
+.card #two {
+  margin-top: 25px;
+  margin-left: 20px;
+  margin-bottom: 8px;
+  width: 61.86px;
+  height: 85px;
+}
+.card #three {
+  margin-top: 25px;
+  margin-left: 20px;
+  width: 67.29px;
+  height: 95px;
+}
+.card #four {
+  margin-top: 25px;
+  margin-left: 20px;
+  width: 67.08px;
+  height: 95px;
+}
+.card #five {
+  margin-top: 25px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+
+  width: 80px;
+  height: 71px;
+}
+.card #six {
+  margin-top: 25px;
+  margin-left: 20px;
+  width: 69.42px;
+  height: 95 px;
+}
+.card-body .card-title {
+  font-family: Mulish;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.card-body .card-text {
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #7d7987;
+}
+.load button {
+  font-family: Mulish;
+  color: #458ff6;
+  height: 50px;
+  width: 200px;
+  border: 2px solid;
+  border-radius: 55px;
+  border-color: #458ff6;
+  background-color: #fff;
+  margin-bottom: 100px;
+  margin-top: 30px;
+}
+.load button:hover {
+  color: #fff;
+  background-color: #458ff6;
+  transition: 0.5s;
+}
+#leading{
+  margin-bottom: 100px;
+}
+#leading hr {
+  width: 40px;
+  height: 3px;
+  opacity: 100%;
+  border-radius: 10px;
+}
+#leading p {
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #7d7987;
+}
+#leading #text {
+  padding-left: 80px;
+  padding-right: 70px;
+  text-align: left;
+  padding-top: 60px;
+}
+#leading button {
+  font-family: Mulish;
+  color: #458ff6;
+  height: 45px;
+  width: 150px;
+  border: 2px solid;
+  border-radius: 55px;
+  border-color: #458ff6;
+  background-color: #fff;
+  margin-bottom: 100px;
+}
+#leading button:hover {
+  color: #fff;
+  background-color: #458ff6;
+  transition: 0.5s;
+}
+/* #leading img {
+  /* padding-left: 40px; */
+/* } */
+
+#download hr {
+  width: 40px;
+  height: 3px;
+  opacity: 100%;
+  border-radius: 10px;
+}
+#download p {
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #7d7987;
+}
+#download #text {
+  padding-left: 70px;
+  padding-right: 90px;
+  padding-top: 60px;
+}
+#download button {
+  font-family: Mulish;
+  color: #458ff6;
+  height: 45px;
+  width: 150px;
+  border: 2px solid;
+  border-radius: 55px;
+  border-color: #458ff6;
+  background-color: #fff;
+  margin-bottom: 100px;
+}
+#download button:hover {
+  color: #fff;
+  background-color: #458ff6;
+  transition: 0.5s;
+}
+
+.testimonial {
+  padding: 90px;
+}
+
+#check h1 {
+  margin-top: 100px;
+  font-family: Mulish;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0em;
+}
+#check hr {
+  width: 90px;
+  height: 3px;
+  opacity: 100%;
+  margin-bottom: 100px;
+}
+
+#checkout .card {
+  height: 500px;
+}
+#checkout .card:hover {
+  border: none;
+}
+#checkout .card-title {
+  line-height: 30px;
+}
+#checkout .card a {
+  background: #fff;
+  color: #458ff6;
+  border: none;
+}
+#checkout #three p {
+  padding-top: 3px;
+}
+#checkout .card a span {
+  color: #458ff6;
+}
+#checkout {
+  background-image: url(images/secondBG.png), url(images/element.png);
+  background-repeat: no-repeat, no-repeat;
+  background-position: center right, top left;
+  background-size: 20%, 10%;
+}
+#footer {
+  background-image: url(images/bg.png);
+  background-size:cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+#footer img {
+  margin-top: 200px;
+}
+#footer h2 {
+  font-family: Mulish;
+  font-size: 18px;
+  padding-top: 25px;
+  font-weight: 300;
+  line-height: 25px;
+  color: white;
+  text-align: left;
+}
+#footer h3 {
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  margin-top: 35px;
+  padding-bottom: 102px;
+  color: white;
+  font-weight: 300;
+  line-height: 28px;
+  text-align: left;
+}
+#footer #company {
+  margin-top: 200px;
+}
+#footer #company ul {
+  padding: 0px;
+}
+#footer #company ul li {
+  list-style: none;
+  padding-bottom: 15px;
+}
+#footer #company ul li a {
+  text-decoration: none;
+  color: white;
+}
+#company {
+  padding-left: 40px;
+}
+#company h1 {
+  font-family: Mulish;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+}
+
+.flex-container {
+  display: none;
+}
+
+@media (max-width: 1199.98px) {
+  #head #text {
+    padding-right: 0px
+}
+  #footer h3 {
+    padding-bottom: 52px;
+  }
+  #footer img {
+    margin-top: 150px;
+  }
+  #navbar ul li a {
+    font-family: "Mulish", sans-serif;
+    padding-left: 15px;
+  }
+  #text img {
+    margin-left: -130px;
+  }
+  .navbar-brand {
+    padding-left: 53px;
+  }
+  #footer #company{
+    margin-top: 150px;
+  }
+
+}
+
+
+@media (max-width: 991.98px) {
+  .navbar-toggler {
+    margin-right: 40px;
+  }
+  #head #text {
+    padding-right: 10px;
+    margin-top: 10px;
+  }
+  #head #text button{
+    margin-left: 0px;
+  }
+  #text img {
+    margin-left: -150px;
+  }
+  .navbar-brand {
+    padding-left: 60px;
+  }
+  #text h1 {
+    padding: 0px;
+    font-size: 25px;
+    margin-top: 5px;
+    padding-left: 0px;
+  }
+  #text h2 {
+    padding: 0px;
+  }
+  #head #ill {
+    padding-top: 80px;
+  }
+  #navbar {
+    padding-bottom: 0px;
+  }
+  .load button{
+    margin-bottom: 0px;
+  }
+  .testimonial{
+    padding: 0px;
+  }
+/* footer */
+#footer img {
+  margin-top: 115px;
+}
+#footer h2 {
+  font-size: 15px;
+  line-height: 20px;
+}
+#footer h3 {
+  font-size: 15px;
+  padding-bottom: 20px;
+  margin-bottom: 0px;
+}
+#footer #company {
+  margin-top: 110px;
+  padding-right: 0px;
+}
+#footer #company ul {
+  padding: 0px;
+}
+#footer #company ul li {
+  list-style: none;
+  padding-bottom: 5px;
+}
+#footer #company ul li a {
+  text-decoration: none;
+  color: white;
+  line-height: 5px;
+  font-size: 12px;
+  padding-right: 0px;
+}
+#company h1 {
+  font-family: Mulish;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+}
+/* footer end*/
+}
+@media (max-width: 767.98px){
+  #footer{
+    display: none;
+  }
+  #checkout .card {
+    margin-bottom: 40px;
+    height: 550px;
+  } 
+  .load button {
+    margin-bottom: 63px;
+  }
+  
+  .flex-container {
+    background-color: #60ACF3;
+    display: flex;
+
+}
+
+.flex-child {
+    flex: 1;
+    border: none;
+    text-align: center;
+    padding: 20px;
+}
+.flex-child h3{
+  font-size: 11px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  color: white;
+
+}
+
+/* .flex-child:first-child {
+    margin-right: 20px;
+}  */
+  
+}
+@media (max-width: 575.98px){
+  .navbar-brand{
+    padding-left: 0px;
+  }
+  .navbar-toggler {
+    margin-right: 20px;
+  }
+  #head #text{
+    padding: 60px;
+  }
+  #download #text{
+  padding-left: 70px;
+  padding-right: 90px;
+  padding-top: 60px;
+  }
+  .testimonial{
+    padding: 0px;
+  }
+  #check h1 {
+    font-size: 26px;
+  }
+  #check hr {
+    width: 80px;
+  }
+  #checkout .card {
+    margin-bottom: 40px;
+    height: 550px;
+  } 
+  #footer{
+    display: none;
+  }
+  .flex-child h3{
+    margin-bottom: 30px;
+  }
+}
