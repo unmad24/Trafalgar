@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Mulish&family=Poppins:wght@400;500;600;700&display=swap");
-
+nav{
+  width: 100%;
+}
 #navbar {
   padding: 20px 0px 20px;
 }
@@ -12,6 +14,9 @@
 }
 .navbar-brand {
   padding-left: 142px;
+}
+#navbar-nav{
+  position: relative;
 }
 #navbar ul {
   padding-right: 109px;
@@ -27,6 +32,7 @@
 #text img {
   margin-left: -120px;
 }
+
 #head #text {
   padding-right: 200px;
 }
@@ -75,6 +81,7 @@
   opacity: 70%;
 }
 #serve h3 {
+  margin-bottom: 60px;
   font-size: 15px;
   line-height: 25px;
   color: #7d7987;
@@ -142,7 +149,7 @@
   font-size: 24px;
   font-style: normal;
   font-weight: 700;
-  line-height: 20px;
+  line-height: 28px;
   letter-spacing: 0em;
   text-align: left;
 }
@@ -156,6 +163,23 @@
   text-align: left;
   color: #7d7987;
 }
+.loadN button {
+  font-family: Mulish;
+  color: #458ff6;
+  height: 50px;
+  width: 200px;
+  border: 2px solid;
+  margin-bottom: 25px;
+  border-radius: 55px;
+  border-color: #458ff6;
+  background-color: #fff;
+  margin-top: 60px;
+}
+.loadN button:hover {
+  color: #fff;
+  background-color: #458ff6;
+  transition: 0.5s;
+}
 .load button {
   font-family: Mulish;
   color: #458ff6;
@@ -165,7 +189,7 @@
   border-radius: 55px;
   border-color: #458ff6;
   background-color: #fff;
-  margin-bottom: 100px;
+  margin-bottom: 80px;
   margin-top: 30px;
 }
 .load button:hover {
@@ -173,9 +197,7 @@
   background-color: #458ff6;
   transition: 0.5s;
 }
-#leading{
-  margin-bottom: 100px;
-}
+
 #leading hr {
   width: 40px;
   height: 3px;
@@ -214,9 +236,7 @@
   background-color: #458ff6;
   transition: 0.5s;
 }
-/* #leading img {
-  /* padding-left: 40px; */
-/* } */
+
 
 #download hr {
   width: 40px;
@@ -256,9 +276,11 @@
   transition: 0.5s;
 }
 
-.testimonial {
-  padding: 90px;
+
+  .testimonial {
+    padding: 20px;
 }
+
 
 #check h1 {
   margin-top: 100px;
@@ -303,8 +325,7 @@
 }
 #footer {
   background-image: url(images/bg.png);
-  background-size:cover;
-  background-position: center;
+  background-position:bottom;
   background-repeat: no-repeat;
   background-size: 100%;
 }
@@ -363,9 +384,13 @@
   display: none;
 }
 
+
 @media (max-width: 1199.98px) {
   #head #text {
-    padding-right: 0px
+    padding-right: 0px;
+  }
+  #navbar ul {
+    padding-right: 40px;
 }
   #footer h3 {
     padding-bottom: 52px;
@@ -383,29 +408,103 @@
   .navbar-brand {
     padding-left: 53px;
   }
-  #footer #company{
+  #footer #company {
     margin-top: 150px;
   }
-
+  .loadN button {
+    margin-bottom: -20px;
+    margin-top: 60px;
+  }
 }
 
-
 @media (max-width: 991.98px) {
-  .navbar-toggler {
-    margin-right: 40px;
+  #about{
+    padding-right: 15px;
+    font-weight: 600;
   }
+  #about:hover{
+    color: black;
+  }
+ #lead-img {
+    padding-top: 120px;
+}
+#download-img{
+  padding-top: 60px;
+}
+#download #text{
+  padding-top: 0px;
+}
+  #testomon{
+    padding-right: 20px;
+    font-weight: 600;
+
+  }
+  .loadN button {
+
+    margin-bottom: -20px;
+
+    margin-top: 60px;
+  }
+  #testomon:hover{
+    color: black;
+
+  }
+  #apps{
+    padding-right: 25px;
+    font-weight: 600;
+
+  }
+  #apps:hover{
+    color: black;
+
+  }
+  #find{
+    padding-right: 15px;
+    font-weight: 600;
+  }
+  #find:hover{
+    color: black;
+
+  }
+  #home{
+    padding-right: 20px;
+    font-weight: 600;
+  }
+  #home:hover{
+    color: black;
+  }
+  .pstn{
+    position: absolute;
+  }
+  .navbar-nav{
+    text-align: center;
+  }
+  .nav-item{
+    background-color: rgba(218, 211, 211, 0.9);
+    
+  }
+  #navbar ul {
+    padding-right: 0px;
+}
+.pstn{
+  position: absolute;
+}
+.navbar-toggler {
+  margin-right: 20px;
+}
+
   #head #text {
     padding-right: 10px;
     margin-top: 10px;
   }
-  #head #text button{
+  #head #text button {
     margin-left: 0px;
   }
   #text img {
     margin-left: -150px;
   }
   .navbar-brand {
-    padding-left: 60px;
+    padding-left: 20px;
   }
   #text h1 {
     padding: 0px;
@@ -422,108 +521,116 @@
   #navbar {
     padding-bottom: 0px;
   }
-  .load button{
-    margin-bottom: 0px;
+  .load button {
+    margin-bottom: 15px;
   }
-  .testimonial{
+  .testimonial {
     padding: 0px;
   }
-/* footer */
-#footer img {
-  margin-top: 115px;
+
+  /* footer */
+  #footer img {
+    margin-top: 115px;
+  }
+  #footer h2 {
+    font-size: 15px;
+    line-height: 20px;
+  }
+  #footer h3 {
+    font-size: 15px;
+    padding-bottom: 20px;
+    margin-bottom: 0px;
+  }
+  #footer #company {
+    margin-top: 110px;
+    padding-right: 0px;
+  }
+  #footer #company ul {
+    padding: 0px;
+  }
+  #footer #company ul li {
+    list-style: none;
+    padding-bottom: 5px;
+  }
+  #footer #company ul li a {
+    text-decoration: none;
+    color: white;
+    line-height: 5px;
+    font-size: 12px;
+    padding-right: 0px;
+  }
+  #company h1 {
+    font-family: Mulish;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+  }
+  /* footer end*/
 }
-#footer h2 {
-  font-size: 15px;
-  line-height: 20px;
-}
-#footer h3 {
-  font-size: 15px;
-  padding-bottom: 20px;
-  margin-bottom: 0px;
-}
-#footer #company {
-  margin-top: 110px;
-  padding-right: 0px;
-}
-#footer #company ul {
-  padding: 0px;
-}
-#footer #company ul li {
-  list-style: none;
-  padding-bottom: 5px;
-}
-#footer #company ul li a {
-  text-decoration: none;
-  color: white;
-  line-height: 5px;
-  font-size: 12px;
-  padding-right: 0px;
-}
-#company h1 {
-  font-family: Mulish;
-  font-size: 15px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 60px;
-  letter-spacing: 0em;
-  text-align: left;
-  color: white;
-}
-/* footer end*/
-}
-@media (max-width: 767.98px){
-  #footer{
+
+@media (max-width: 767.98px) {
+  #check h1{
+    margin-top: 80px;
+  }
+  #footer {
     display: none;
   }
   #checkout .card {
     margin-bottom: 40px;
     height: 550px;
-  } 
-  .load button {
-    margin-bottom: 63px;
   }
-  
   .flex-container {
-    background-color: #60ACF3;
+    background-color: #60acf3;
     display: flex;
+  }
 
-}
-
-.flex-child {
+  .flex-child {
     flex: 1;
     border: none;
     text-align: center;
     padding: 20px;
-}
-.flex-child h3{
-  font-size: 11px;
-  margin-top: 12px;
-  margin-bottom: 12px;
-  color: white;
+  }
+  .flex-child h3 {
+    font-size: 11px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    color: white;
+  }
+  .loadN button{
+    margin-bottom: 60px;
+    margin-top: 22px;
+  }
 
-}
-
-/* .flex-child:first-child {
+  /* .flex-child:first-child {
     margin-right: 20px;
 }  */
-  
 }
-@media (max-width: 575.98px){
-  .navbar-brand{
-    padding-left: 0px;
+@media (max-width: 575.98px) {
+  #leading button{
+    margin-bottom: 0px;
+  }
+  .navbar-brand {
+    padding-left: 15px;
   }
   .navbar-toggler {
     margin-right: 20px;
   }
-  #head #text{
-    padding: 60px;
+  #head #text {
+    padding: 35px;
   }
-  #download #text{
-  padding-left: 70px;
-  padding-right: 90px;
-  padding-top: 60px;
+  #head #text {
+    padding-top: 0px;
   }
-  .testimonial{
+  #download #text {
+    padding-left: 70px;
+    padding-right: 90px;
+    padding-top: 60px;
+  }
+  .testimonial {
     padding: 0px;
   }
   #check h1 {
@@ -535,11 +642,28 @@
   #checkout .card {
     margin-bottom: 40px;
     height: 550px;
-  } 
-  #footer{
+  }
+  #footer {
     display: none;
   }
-  .flex-child h3{
-    margin-bottom: 30px;
+  .flex-child h3 {
+    margin-bottom: 13px;
+    margin-top: 5px;
   }
+
+  #check h1{
+    font-size: 20px;
+  }
+  #download-img {
+    padding-top: 60px;
+}
+#lead-img {
+  padding-top: 60px;
+}
+#head #ill {
+  padding-top: 20px;
+}
+#leading #text{
+  padding-left: 70px;
+}
 }
